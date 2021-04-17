@@ -12,13 +12,12 @@ About Varapp
 What is Varapp ?
 ----------------
 
-Varapp is an application to filter genetic variants, with a reactive graphical user interface.
+Varapp is a web application to filter genetic variants, with a reactive graphical user interface.
 
 The application has been developed in a collaboration between the
-Swiss Institute of Bioinformatics (SIB) and the Lausanne University hospital (CHUV).
+Swiss Institute of Bioinformatics (SIB) and the Lausanne University Hospital (CHUV).
 
-Although it can be used as a desktop app, it is meant to be deployed as a web service 
-for a research group.
+It is meant to be deployed as a private web service for a research group.
 
 .. figure:: /images/main-border.png
    :width:  100%
@@ -110,7 +109,7 @@ Try the following standard filters:
 - Quality filter: PASS (VQSR)
 - HIGH/MED impact
 
-You should retreive a single variant on gene TBC1D7 that has been published
+You should retrieve a single variant on gene TBC1D7 that has been published
 in `Hum Mutat. 2014 Apr;35(4):447-51 <http://www.ncbi.nlm.nih.gov/pubmed/24515783>`_.
 
 .. note::
@@ -127,9 +126,6 @@ Switch to it using the database selection button in the top right corner.
 Try double-clicking a variant to view the read alignment that
 is at the origin of the call. (To save disk space, only alignments 
 on the first 3M bp of chromosome 1 are available).
-
-If you liked it, we encourage you to deploy an instance at your own lab
-and share the experience.
 
 
 Reference
@@ -156,7 +152,7 @@ or would like to add progressively to the program.
 
 - Get rid of VEP for the annotation.
 - :strike:`View local alignments in a viewer similar to IGV.`
-- Easy installer.
+- :strike:`Docker support`.
 - Scale up to full genome.
 - More flexibility with the annotation.
 - Calculate variants frequencies across several databases of one user/group.

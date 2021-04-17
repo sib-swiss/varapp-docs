@@ -2,6 +2,14 @@
 Changelog
 =========
 
+16th April 2021
+
+* Docker support
+* Added GnomAD frquency filter
+* Moved source code to
+  https://github.com/sib-swiss/varapp-backend-py,
+  https://github.com/sib-swiss/varapp-frontend-react,
+  https://github.com/sib-swiss/varapp-docs
 
 16th August 2016
 ----------------

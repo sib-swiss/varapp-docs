@@ -29,6 +29,7 @@ in a way that is guaranteed to work.
    
    deploy/backend_local
    deploy/backend_prod
+   deploy/backend_docker
    deploy/dependencies
    deploy/backend_dev_notes
    schema
