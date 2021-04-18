@@ -56,7 +56,7 @@ Data
 The location of Gemini databases is configured via the environment variable ``GEMINI_DB_PATH``,
 defaults to ``./resources/db``, and is mounted to ``/db`` inside the container.
 
-It allows you to add/remove databases inside ``$GEMINI_DB_PATH`` dymanically.
+It allows you to add/remove databases inside ``$GEMINI_DB_PATH`` dynamically.
 
 General settings
 ----------------
